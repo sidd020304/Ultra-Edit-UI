@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    margin: 10px;
+    padding: 12px;
+    width: 85vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-between;
+    background-color: #f6f6f6;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    font-family: "Funnel Sans", sans-serif;
+}
+
+.second ul {
+    display: flex;
+    column-gap: 15px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.first img {
+    height: 3.4rem;
+    width: 8rem;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn1 {
+    padding: 0.5rem 1rem;
+    background-color: #ffd741;
+}
+
+.btn2 {
+    padding: 0.5rem 1rem;
+    margin-left: 7px;
+}
+
+.container1 {
+    font-family: "Funnel Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 55vw;
+    justify-self: center;
+    text-align: center;
+}
+
+.heading {
+    font-size: xx-large;
+    font-weight: 200;
+    line-height: 4;
+}
+
+.bold {
+    font-weight: 1000;
+}
+
+.para {
+    width: 55vw;
+    line-height: 2;
+}
+
+.download {
+    margin-top: 30px;
+}
+
+.download button {
+    padding: 20px;
+    background-color: rgb(7, 146, 146);
+    color: white;
+    margin-bottom: 60px;
+}
+
+.container2 {
+    width: 75vw;
+    height: 70vw;
+    display: flex;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-rows: repeat(4, 0.1fr);
+    gap: 1.3rem;
+}
+
+.items {
+    background-color: #f4f0f0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.head {
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    line-height: 3;
+
+}
+
+.text {
+    color: rgb(50, 49, 49);
+}
+
+.buttons {
+    line-height: 6;
+}
+
+.buttons button {
+    padding: 7px;
+    font-weight: lighter;
+}
+
+.bt1 {
+    color: white;
+    background-color: rgb(7, 146, 146);
+
+}
+
+.bt2 {
+    color: white;
+    background-color: rgb(3, 198, 84);
+}
+
+@media(max-width:1000px) {
+    nav {
+        justify-content: space-around;
+    }
+
+    .second ul {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    .btn1,
+    .btn2 {
+        visibility: hidden;
+        width: 10px;
+        height: 10px;
+    }
+
+    i {
+        visibility: hidden;
+    }
+
+    .container2 {
+        grid-template-columns: repeat(2, 0.5fr);
+        grid-template-rows: repeat(5, 0.1fr);
+        gap: 1rem;
+    }
+}
+
+@media(max-width:650px) {
+    nav {
+        height: 5vh;
+        font-size: small;
+    }
+
+    .first img {
+        height: 2.7rem;
+        width: 8rem;
+    }
+
+    .container2 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 0.1fr);
+        gap: 1rem;
+        justify-self: center;
+    }
+}
+
+@media(max-width:550px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+    overflow-x:hidden;
+    box-sizing:border-box;
+    width:fit-content;
+    height: fit-content;
+}
+    
+    nav {
+        height:5%;
+        width: 100%;
+        font-size: smaller;
+        text-align: center;
+    }
+
+    ul {
+        display:none;
+    }
+
+    .first img {
+        height: 2rem;
+        width: 4rem;
+    }
+
+    .heading {
+        font-size: medium;
+        text-align: center;
+    }
+
+    .bold {
+        font-weight: bold;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .para {
+        width: 50vw;
+        line-height: 1;
+        font-size: medium;
+        text-align: center;
+    }
+
+    .container2 {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        gap: 1rem;
+        justify-self: center;
+        width: 100%;
+    }
+}
