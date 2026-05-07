@@ -5,7 +5,3 @@ The design is fully responsive and adjusts properly on different screen sizes su
 ![image alt](https://github.com/sidd020304/Ultra-Edit-UI/blob/main/ultra%20edit%20ss.jpg?raw=true)
 
 ![image alt](https://github.com/sidd020304/Ultra-Edit-UI/blob/main/ultra%20edit2%20ss.jpg?raw=true)
-
-![image alt](https://github.com/sidd020304/Ultra-Edit-UI/blob/main/ultrs%20edit3ss.jpg?raw=true)
-
-![image alt](https://github.com/sidd020304/Ultra-Edit-UI/blob/main/ultra%20edit%204%20ss.jpg?raw=true)
